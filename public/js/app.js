@@ -2079,6 +2079,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -19822,7 +19823,11 @@ var render = function () {
         _c(
           "div",
           { staticClass: "container-fluid p-0" },
-          [_c("router-view", { key: _vm.$route.path })],
+          [
+            _c("h4", [_vm._v("Content")]),
+            _vm._v(" "),
+            _c("router-view", { key: _vm.$route.path }),
+          ],
           1
         ),
       ]),

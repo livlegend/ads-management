@@ -50,7 +50,7 @@
     <script src="{{ asset('assets/js/popper.min.js') }}"></script>
     <!-- bootstarp js -->
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    {{-- <!-- sidebar menu  -->
+    {{-- <!-- sidebar menu-->
     <script src="{{ asset('assets/js/metisMenu.js') }}"></script>
     <!-- waypoints js -->
     <script src="{{ asset('assets/vendors/count_up/jquery.waypoints.min.js') }}"></script>
@@ -85,7 +85,7 @@
     <script src="{{ asset('assets/vendors/text_editor/summernote-bs4.js') }}"></script>
     <script src="{{ asset('assets/vendors/am_chart/amcharts.js') }}"></script> --}}
 
-    <!-- scrollabe  -->
+    <!-- scrollable  -->
     <script src="{{ asset('assets/vendors/scroll/perfect-scrollbar.min.js') }}"></script>
     <script src="{{ asset('assets/vendors/scroll/scrollable-custom.js') }}"></script>
 
