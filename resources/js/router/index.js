@@ -1,13 +1,13 @@
 import Vue from 'vue';
-import VueRouter from 'vue-router';
+import Router from 'vue-router';
 
 
 // Containers
-import TheContainer from "./layouts/TheContainer.vue" ;
+import TheContainer from "../layouts/TheContainer.vue" ;
 
 // Views
 
-Vue.use(VueRouter)
+Vue.use(Router)
 
 export default new Router({
     mode: 'history',
