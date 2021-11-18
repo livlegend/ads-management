@@ -1,14 +1,15 @@
 <template>
+    <section>
+    <TheSideBar/>
     <section class="main_content dashboard_part large_header_bg">
-        <TheSideBar/>
         <TheHeader/>
-        <div class="main_content_iner">
-            <div class="container-fluid p-0">
-                <h4>Content</h4>
-                <router-view :key="$route.path"></router-view>
-            </div>
-        </div>
+        <transition name="fade" mode="out-in">
+            <router-view :key="$route.path"></router-view>
+        </transition> 
+        
     </section>
+    </section>
+    
 </template>
 
 <script>
@@ -19,3 +20,14 @@ export default {
     components: {TheSideBar, TheHeader}
 }
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
